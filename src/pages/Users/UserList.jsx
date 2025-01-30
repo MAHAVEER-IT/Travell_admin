@@ -54,7 +54,6 @@ function UserList() {
               <th>Email</th>
               <th>Role</th>
               <th>Joined Date</th>
-              <th>Actions</th>
             </tr>
           </thead>
           <tbody>
@@ -68,10 +67,6 @@ function UserList() {
                   </span>
                 </td>
                 <td>{new Date(user.createdAt).toLocaleDateString()}</td>
-                <td>
-                  <button className="edit-btn">Edit</button>
-                  <button className="delete-btn">Delete</button>
-                </td>
               </tr>
             ))}
           </tbody>
