@@ -129,7 +129,7 @@ function DestinationList() {
               <h3>{destination.name}</h3>
               <p>{destination.description}</p>
               <div className="destination-details">
-                <span>Price: ${destination.price}</span>
+                <span>Price: ₹{destination.price}</span>
                 <span>Country: {destination.country}</span>
               </div>
               <div className="card-actions">
